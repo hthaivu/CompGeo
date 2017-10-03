@@ -8,6 +8,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
+#----------------algorithm--------------------------------
+
 
 def cross(origin, p1, p2):
     # Calculate cross product of vectors origin-p1 and origin-p2
@@ -64,8 +66,9 @@ def giftwrap(points):
     return np.array(hull)
 
 
-# Implementation
+#--------------main---------------------------------------
 
+# Implementation
 n = 1000
 
 tic = time.clock()
