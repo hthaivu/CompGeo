@@ -23,8 +23,10 @@ def cross(origin, p1, p2):
 
 
 def giftwrap(points):
-    # Input: a numpy array of points in 2-D
-    # Output: list of points on the Convex Hull
+    '''
+    Input: a numpy array of points coordinates in 2-D
+    Output: list of points on the Convex Hull
+    '''
 
     # Number of point must be more than 3
     if len(points) < 3:
@@ -69,11 +71,11 @@ def giftwrap(points):
 
     return np.array(hull)
 
-
 #--------------main---------------------------------------
 
+
 # Implementation
-n = 1000
+n = 100
 
 tic = time.clock()
 points = np.random.rand(n, 2)
