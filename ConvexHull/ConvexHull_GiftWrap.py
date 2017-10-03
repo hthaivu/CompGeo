@@ -1,3 +1,7 @@
+# CONVEX HULL -- GIFT WRAPPING ALGORITHM
+# Author: Hoang Anh Thai Vu
+# Date: 10/03/2017
+
 # Solving Convex Hull problem using Gift Wrapping (Jarvis March) algorithm
 # The algorithm works as follow:
 #  1. Finding the first right most point
@@ -19,7 +23,7 @@ def cross(origin, p1, p2):
 
 
 def giftwrap(points):
-    # Input: an array of points in 2-D
+    # Input: a numpy array of points in 2-D
     # Output: list of points on the Convex Hull
 
     # Number of point must be more than 3
